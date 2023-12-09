@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "agony",
+  "version": "${version}",
+
+  "name": "Agony",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/agony/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+  "mixins": [
+    "agony.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*"
+  }
+}
